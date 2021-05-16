@@ -5,10 +5,10 @@
 from PyQt5.QtWidgets import (
     QHBoxLayout,
     QMainWindow,
-    Qwidget,
+    QWidget,
 )
 
-class Window(QmainWindow):
+class Window(QMainWindow):
     """Main Window."""
     def __init__(self, perent=None):
         """Initializer."""
