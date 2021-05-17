@@ -15,9 +15,9 @@ from PyQt5.QtWidgets import (
 
 class Window(QMainWindow):
     """Main Window."""
-    def __init__(self, perent=None):
+    def __init__(self, parent=None):
         """Initializer."""
-        super().__init__(perent)
+        super().__init__(parent)
         self.setWindowTitle("RP Contacts")
         self.resize(550, 250)
         self.centralWidget = QWidget()
