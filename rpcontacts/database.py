@@ -7,7 +7,7 @@ from PyQt5.QtWidgets import QMessageBox
 from PyQt5.QtSql import QSqlDatabase, QSqlQuery
 
 def _createContactsTable():
-    """Create the contacts table in the database."""
+    """Create the contacts table in the database. """
     createTableQuery = QSqlQuery()
     return createTableQuery.exec(
         """
