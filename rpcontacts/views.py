@@ -34,7 +34,7 @@ class Window(QMainWindow):
         """Setup the main window's GUI."""
         # Create the table view widget
         self.table = QTableView()
-        self.table.setModle(self.contactsModel.model)
+        self.table.setModel(self.contactsModel.model)
         self.table.setSelectionBehavior(QAbstractItemView.SelectRows)
         self.table.resizeColumnsToContents()
         # Create buttons
